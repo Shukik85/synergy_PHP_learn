@@ -94,5 +94,10 @@ if ($result = mysqli_query($link, $sql)){
 		print_r(PARAGRAF);
 	}
 }
+<<<<<<< HEAD
 >>>>>>> de26b65 (Signed-off-by: Plotnikov Aleksandr <shukik85@ya.ru>)
 mysqli_close($link);
+=======
+mysqli_close($link);
+
+>>>>>>> a61c6c7 (Signed-off-by: Plotnikov Aleksandr <shukik85@ya.ru>)
