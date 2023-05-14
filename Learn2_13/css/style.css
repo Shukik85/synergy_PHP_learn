@@ -1,0 +1,14 @@
+table,
+td {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+thead,
+tfoot {
+    background-color: #60dcf3;
+}
+
+tfoot {
+    text-align: right;
+}

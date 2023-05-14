@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+    line-height: 1.5;
+}
+
+/* В этом же разделе создайте селектор для класса “greeting”.  Установите следующие значения свойств в нем:
+ размер шрифта 36px, цвет #16171c, межстрочный отступ 1.2, все буквы заглавные */
+ 
+ .greeting {
+    font-size: 36px;
+    color: #16171c;
+    line-height: 1.2;
+    text-transform: uppercase;
+ }
+
+ /* Определите следующие стили для нового класса:
+  размер шрифта 30px, межстрочный отступ 1.2, подчеркивание текста. */
+
+  .secondLevel {
+    font-size: 30px;
+    line-height: 1.2;
+    text-decoration: underline;
+  }
+
+  /* Для класса list в разделе стилей установите следующие атрибуты:
+   размер шрифта 20px, все буквы наклонные, стиль маркеров square. */
+
+   .list {
+    font-size: 20px;
+    font-style: italic;
+    list-style: square;
+   }
+
+   /* В разделе описания стилей установите для элементов 
+   .table td (все столбцы td в таблице с классом table)
+   .table th (все столбцы th в таблице с классом table) значения атрибутов:
+    граница - сплошная линия толщиной в 1px черного цвета,
+    внутренний отступ сверху и снизу - 5px, слева и справа - 10px.
+    Для всей таблицы установите ширину 700px (используйте класс, но не тэг). Для первой и последней строк таблицы установите цвет фона на свое усмотрение. Ориентируйте текст последней строки таблицы по правому краю. Выделите созданные стили и перенесите их в новый документ style.css. Удалите их из файла index.html. Подключите файл стилей к своей странице. */
+    .table {
+      width: 700px;
+      border-collapse: collapse;
+    }
+
+    .table th, .table td {
+      border: 1px solid black;
+      padding: 10px 5px;
+    }
+
+    .table thead, .table tfoot {
+      background-color: aquamarine;
+    }
+
+    .table tfoot {
+      text-align: right;
+    }
